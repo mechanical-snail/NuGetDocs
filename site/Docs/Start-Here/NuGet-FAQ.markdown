@@ -75,7 +75,7 @@ See [Hosting Your Own NuGet Feeds](../Creating-Packages/Hosting-Your-Own-NuGet-F
 ## Does NuGet work with Nu Gems, or does NuGet supersede Nu Gems?
 
 **Sorry, no. But keep reading.** NuGet does not work with Nu Gems directly, because NuGet uses its own package format 
-(based on OPC) and cannot read *.gemspec* files directly. In essence, NuGet can be considered Nu Gems Version 2 and an 
+(based on OPC) and cannot read `.gemspec` files directly. In essence, NuGet can be considered Nu Gems Version 2 and an 
 evolution of package management for Visual Studio and the .NET Framework platform.
 If you liked the Nu behavior of dealing with packages, 
 note that NuGet.exe behaves very similarly for those who want to 
@@ -83,7 +83,7 @@ use NuGet outside of Visual Studio.
 
 ## Does NuGet support Mono?
 
-The command-line application (*nuget.exe*) builds and runs under Mono and allows you to create packages in Mono.
+The command-line application (`nuget.exe`) builds and runs under Mono and allows you to create packages in Mono.
 This is especially true for Mono on Windows, but there are some known issues for Mono on Linux and OS X.  To review
 the known issues, [search for Mono in our issue list](http://nuget.codeplex.com/workitem/list/basic?field=Votes&direction=Descending&issuesToDisplay=Open&keywords=mono&emailSubscribedItemsOnly=false).
 
