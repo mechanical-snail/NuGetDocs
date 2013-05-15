@@ -101,10 +101,6 @@ the PowerShell-based **Package Manager Console** and the **Manage NuGet Packages
 Both are wrappers around the NuGet API, which is written in managed code.
 NuGet.exe is also used to create and publish packages.
 
-## What languages are supported by NuGet?
-
-NuGet currently supports C#, F# and Visual Basic projects.
-
 ## Can I use NuGet outside of Visual Studio?
 
 **You sure can!** As discussed in the question on command line tools for NuGet, the primary focus 
@@ -115,3 +111,7 @@ There are multiple NuGet clients that work completely outside of Visual Studio:
 * [SharpDevelop Alpha](http://community.sharpdevelop.net/blogs/mattward/archive/2011/01/23/NuGetSupportInSharpDevelop.aspx). (See a demo of this in [Phil Haack's MvcConf talk](http://bit.ly/fzrJDa).) 
 * ASP.NET Web Pages in WebMatrix. (See a demo of this in [Phil Haack's MvcConf talk](http://bit.ly/fzrJDa).) 
 * [NuGet.exe](http://blog.davidebbo.com/2011/01/installing-nuget-packages-directly-from.html) 
+
+## What languages are supported by NuGet?
+
+NuGet currently supports C#, F# and Visual Basic projects.
