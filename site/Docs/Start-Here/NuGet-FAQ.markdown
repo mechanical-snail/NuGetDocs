@@ -2,9 +2,9 @@
 
 ## What is required to run NuGet?
 
-NuGet proper requires Visual Studio 2010 or Visual Web Developer Express 2010.
+Official NuGet clients are available for Visual Studio 2010 (all editions) and Visual Web Developer Express 2010.
 The NuGet Package Manager Console requires that [PowerShell 2.0](http://support.microsoft.com/kb/968929) be installed. 
-Powershell 2.0 is already installed if you have the following operating system:
+Powershell 2.0 is already installed if you have the following operating systems:
 
 * Windows 7 
 * Windows Server 2008 R2 
@@ -16,7 +16,7 @@ If you have the following operating systems, you must [manually install Powershe
 * Windows Vista SP1 
 * Windows Server 2008 
 
-[NuGet clients are also available](#can-i-use-nuget-outside-of-visual-studio) for platforms other than Visual Studio on Windows.
+Unofficial [NuGet clients are also available](#can-i-use-nuget-outside-of-visual-studio) for platforms other than Visual Studio on Windows.
 
 ## Do I have to install ASP.NET MVC 3 to get NuGet?
 
